@@ -1,0 +1,51 @@
+{
+  "name": "vue-mobile-cropper",
+  "version": "0.0.1",
+  "description": "A mobile avatar cropper component based on vue.",
+  "main": "dist/vue-mobile-cropper.js",
+  "module": "dist/vue-mobile-cropper.esm.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [
+    "javascript",
+    "rollup",
+    "vuejs",
+    "stylus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwpongithub/vue-mobile-cropper.git"
+  },
+  "author": "xwpongithub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwpongithub/vue-mobile-cropper/issues"
+  },
+  "homepage": "https://github.com/xwpongithub/vue-mobile-cropper#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.1.5",
+    "babel-loader": "^8.0.4",
+    "cropperjs": "^1.4.2",
+    "cssnano": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-header": "^2.0.5",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "^2.7.0",
+    "postcss": "^7.0.5",
+    "postcss-pxtorem": "^4.0.1",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "stylus": "^0.54.5",
+    "uglify-js": "^3.4.9",
+    "vue-create-api": "^0.2.0",
+    "zlib": "^1.0.5"
+  }
+}

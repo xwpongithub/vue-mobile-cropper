@@ -1,5 +1,5 @@
 /*!
- * vue-mobile-cropper v1.0.0
+ * vue-mobile-cropper v0.0.1
  * (c) 2018-2018 xwpongithub
  * Released under the MIT License.
  */
@@ -370,18 +370,14 @@
     name: 'vue-mobile-cropper',
 
     render(h) {
-      return h('div', 'aaa');
+      return h('div', 'cropper component');
     }
 
   };
 
-  var version = "1.0.0";
+  var version = "0.0.1";
 
   VueMobileCropper.version = version;
-
-  VueMobileCropper.install = function (Vue) {
-    Vue.component(VueMobileCropper.name, VueMobileCropper);
-  };
 
   if (typeof window !== 'undefined' && window.Vue) {
     Vue.use(index, {
